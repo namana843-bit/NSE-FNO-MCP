@@ -1,0 +1,4 @@
+mcp>=1.28,<2
+pandas>=2.2,<3
+duckdb>=1.1
+requests>=2.32
