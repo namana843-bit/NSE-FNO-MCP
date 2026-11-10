@@ -134,9 +134,7 @@ def _connect() -> duckdb.DuckDBPyConnection:
             turnover DOUBLE,
             trades BIGINT,
             oi BIGINT,
-            change_oi BIGINT,
-            PRIMARY KEY (trade_date, instrument_type, symbol, expiry,
-                         strike, option_type)
+            change_oi BIGINT
         )
     """)
     return con
